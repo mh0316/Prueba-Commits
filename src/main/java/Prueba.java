@@ -7,5 +7,6 @@ public class Prueba {
         System.out.println("Ingrese dos números: ");
         a = leer.nextInt();
         b = leer.nextInt();
+        System.out.println("La suma es: "+(a+b));
     }
 }
