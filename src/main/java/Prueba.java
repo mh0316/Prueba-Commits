@@ -8,5 +8,11 @@ public class Prueba {
         a = leer.nextInt();
         b = leer.nextInt();
         System.out.println("La suma es: "+(a+b));
+
+        if(a>b){
+            System.out.println("El mayor es "+a);
+        }else {
+            System.out.println("El mayor es "+b);
+        }
     }
 }
