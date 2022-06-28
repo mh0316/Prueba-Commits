@@ -14,5 +14,15 @@ public class Prueba {
         }else {
             System.out.println("El mayor es "+b);
         }
+
+        System.out.println("Ingrese los nuevos datos para la división: ");
+        int c = leer.nextInt();
+        int d = leer.nextInt();
+        if(d==0){
+            System.out.println("Error, no se puede didivir entre 0.");
+            System.out.println("Ingrese el segundo valor nuevamente: ");
+            d = leer.nextInt();
+            System.out.println("La división es "+(c/d));
+        }
     }
 }
